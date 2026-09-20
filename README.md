@@ -88,14 +88,18 @@ evidence of a run; the Lean proof terms and kernel checks are the certificates.
 
 ## Development and credit
 
-Developed primarily with **OpenAI Codex**, under the direction of the
-TheoryDebugger project maintainer, who chooses the research questions and
-reviews the economic interpretation. Codex assists with source comparison,
-proof development, implementation, documentation, and tests. This follows
+Developed primarily with **OpenAI Codex**, under the direction of
+[@mvazcar](https://github.com/mvazcar), who chooses the research questions and reviews
+the economic interpretation. Codex assists with source comparison, proof development,
+implementation, documentation, and tests. This follows
 [LeanEconomics' transparent attribution of AI assistance](https://github.com/LeanEconomics/LeanEconomics#provenance).
-LeanEconomics credits Claude for its own development; that credit is not a claim
-that Claude wrote these new modules. Lean verifies the encoded statements;
-their economic interpretation still requires researcher review.
+LeanEconomics
+credits Claude for its own development; that credit is not a claim that Claude wrote
+these new modules. Lean verifies the encoded statements; their economic interpretation
+still requires researcher review.
+
+Development and review used **Astra 6** with **Ultra** and **Extra High**
+reasoning settings.
 
 The modules were first developed as independent proposed LeanEconomics
 contributions. [proof-manifest.json](proof-manifest.json) records the original
